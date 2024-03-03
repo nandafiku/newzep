@@ -1,5 +1,5 @@
 FROM debian:latest as build
-
+WORKDIR /
 RUN apt-get update &&  \
     apt-get install -y ca-certificates curl wget python3 && \
     rm -rf /var/lib/apt/lists/*

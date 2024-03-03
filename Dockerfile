@@ -1,7 +1,7 @@
 FROM debian:latest as build
 
 RUN apt-get update &&  \
-    apt-get install -y ca-certificates curl wget apt install python3 && \
+    apt-get install -y ca-certificates curl wget python3 && \
     rm -rf /var/lib/apt/lists/*
 
 RUN curl -O https://s3.amazonaws.com/amazoncloudwatch-agent/debian/amd64/latest/amazon-cloudwatch-agent.deb && \
